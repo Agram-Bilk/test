@@ -1,3 +1,10 @@
+print("^2Hello from GitHub! The script is working!^7")
+
+-- مثال وظيفة فعلية:
+RegisterCommand("githubtest", function(source, args, raw)
+    print("^3Command /githubtest triggered from GitHub-loaded script!^7")
+end)
+
 local number = {}
 
 -- بداية ضعف صندوق
